@@ -11,6 +11,11 @@
   scroll-behavior: smooth;
 }
 
+body {
+  width: 1440px;
+  margin: 0 auto;
+}
+
 /*
 ########################################
                   Header
