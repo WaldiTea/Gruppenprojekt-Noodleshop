@@ -49,6 +49,7 @@ header {
   top: 0;
   z-index: 99;
   width: 75%;
+  animation: top-load 500ms;
 }
 
 header nav a {
@@ -68,6 +69,20 @@ header nav img {
   position: absolute;
   left: 5px;
   top: -100px;
+  transition: all 0.5s;
+}
+
+header nav img:hover {
+  transform: rotate(45deg);
+}
+
+.header-title {
+  width: 3rem;
+  color: #fff;
+  font-size: 2rem;
+  position: absolute;
+  left: 17rem;
+  top: 0.7rem;
 }
 
 /*
@@ -76,11 +91,15 @@ header nav img {
 ########################################
 */
 
+main {
+  animation: side-load 500ms;
+}
+
 #home {
-  background: url(../img/title-bg.jpeg) no-repeat center/cover;
+  background: url(../img/title-bg.jpg) no-repeat center/cover;
   width: 1440px;
-  height: 90vh; /*höhe verändert*/
-  padding-top: 100px;
+  height: 100vh; /*höhe verändert*/
+  padding-top: 110px;
 }
 
 h1 {
@@ -145,6 +164,14 @@ h1 {
   height: 80px;
 }
 
+.client-img {
+  transition: all 0.5s;
+}
+
+.client-img:hover {
+  transform: rotate(360deg);
+}
+
 .font-left {
   width: 18%;
   position: absolute;
@@ -165,9 +192,17 @@ h1 {
   font-family: "PoetsenOne";
 }
 
+#specials h2 {
+  margin: 2rem 0;
+}
+
 #specials article h2,
 .specials_intro {
   text-align: center;
+}
+
+.specials_intro {
+  margin-bottom: 2rem;
 }
 
 #specials article {
@@ -235,7 +270,7 @@ h1 {
 
 .contactUs {
   background: url(../img/contact-bg.png);
-  height: 100vh;
+  height: 90vh;
 }
 
 .contactUs form {
@@ -292,6 +327,28 @@ h1 {
   cursor: pointer;
 }
 
+/*---------- animation ----------*/
+
+@keyframes top-load {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes side-load {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
 /*
 ########################################
                   Footer
@@ -319,8 +376,7 @@ footer p {
   font-family: "Hiromisake";
   font-size: 0.7em;
   color: #ebdcbb;
-  text-align: center; 
+  text-align: center;
   padding: 1em;
   margin-top: 01.9%;
 }
-  
