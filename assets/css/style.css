@@ -64,7 +64,7 @@ header nav img {
 ########################################
 */
 
-.welcome {
+#home {
   background: url(../img/title-bg.jpeg) no-repeat center/cover;
   width: 1440px;
   height: 90vh;
@@ -76,6 +76,77 @@ h1 {
   width: 50%;
   padding: 3% 25%;
 }
+
+#specials{
+  background: #EBDCBB url(../img/asia-border.png) no-repeat;
+  height: 70vh;
+  font-family: "PoetsenOne";
+}
+
+#specials article h2, .specials_intro{
+  text-align: center;
+}
+
+#specials article{
+  padding: 4% 13%;
+}
+
+#specials article h2{
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 6rem;
+}
+
+#specials article p{
+  font-size: 1.3rem;
+}
+
+.specials_pleft1{
+  background: url(../img/noodle.png) no-repeat;
+  background-position: left;
+  background-size: 95px;
+  padding: 50px 120px;
+}
+
+.specials_pright{
+  text-align: right;
+  background: url(../img/ramune.png) no-repeat;
+  background-position: right;
+  background-size: 120px;
+  padding: 40px 120px;
+}
+
+.specials_pleft2{
+  background: url(../img/ramen.png) no-repeat;
+  background-position: left;
+  background-size: 120px;
+  padding: 40px 120px;
+}
+.specials_pleft1::after{
+  content: "empfohlen von Sensei Gai";
+  color: #999999;
+  font-size: 1rem;
+  padding: 5%;
+}
+
+.specials_pright::before{
+  content: "empfohlen von Sensei Gai";
+  color: #999999;
+  font-size: 1rem;
+  padding: 5%;
+}
+
+.specials_pleft2::after{
+  content: "empfohlen von Sensei Gai";
+  color: #999999;
+  font-size: 1rem;
+  padding: 5%;
+}
+
+/* .specials article p img{
+  width: 100px;
+  height: 100px;
+} */
 
 /*
 ########################################
