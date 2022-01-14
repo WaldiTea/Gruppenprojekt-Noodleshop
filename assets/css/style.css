@@ -47,14 +47,15 @@ header {
   height: 10vh;
   position: fixed;
   top: 0;
+  z-index: 99;
   width: 75%;
 }
 
-header nav a{
+header nav a {
   color: white;
   font-size: 1.5rem;
 }
-header nav a:hover{
+header nav a:hover {
   text-decoration: underline;
 }
 header nav ul li {
@@ -158,38 +159,39 @@ h1 {
   right: 1px;
 }
 
-#specials{
-  background: #EBDCBB url(../img/asia-border.png) no-repeat;
+#specials {
+  background: #ebdcbb url(../img/asia-border.png) no-repeat;
   height: 70vh;
   font-family: "PoetsenOne";
 }
 
-#specials article h2, .specials_intro{
+#specials article h2,
+.specials_intro {
   text-align: center;
 }
 
-#specials article{
+#specials article {
   padding: 4% 13%;
 }
 
-#specials article h2{
+#specials article h2 {
   color: #fff;
   font-size: 2.5rem;
   line-height: 6rem;
 }
 
-#specials article p{
+#specials article p {
   font-size: 1.3rem;
 }
 
-.specials_pleft1{
+.specials_pleft1 {
   background: url(../img/noodle.png) no-repeat;
   background-position: left;
   background-size: 95px;
   padding: 50px 120px;
 }
 
-.specials_pright{
+.specials_pright {
   text-align: right;
   background: url(../img/ramune.png) no-repeat;
   background-position: right;
@@ -197,27 +199,27 @@ h1 {
   padding: 40px 120px;
 }
 
-.specials_pleft2{
+.specials_pleft2 {
   background: url(../img/ramen.png) no-repeat;
   background-position: left;
   background-size: 120px;
   padding: 40px 120px;
 }
-.specials_pleft1::after{
+.specials_pleft1::after {
   content: "empfohlen von Sensei Gai";
   color: #999999;
   font-size: 1rem;
   padding: 5%;
 }
 
-.specials_pright::before{
+.specials_pright::before {
   content: "empfohlen von Sensei Gai";
   color: #999999;
   font-size: 1rem;
   padding: 5%;
 }
 
-.specials_pleft2::after{
+.specials_pleft2::after {
   content: "empfohlen von Sensei Gai";
   color: #999999;
   font-size: 1rem;
@@ -231,12 +233,12 @@ h1 {
 
 /*-----------------Contact Us---------------*/
 
-.contactUs{
+.contactUs {
   background: url(../img/contact-bg.png);
   height: 100vh;
 }
 
-.contactUs form{
+.contactUs form {
   display: inline-block;
   background-color: rgb(209, 208, 208, 0.5);
   width: 30%;
@@ -247,39 +249,39 @@ h1 {
   font-family: "PoetsenOne";
 }
 
-.contactUs label{
+.contactUs label {
   color: white;
 }
 
-.contactUs form div{
+.contactUs form div {
   margin-left: 10%;
   margin-bottom: 5%;
   margin-top: 5%;
 }
 
-.contactUs form h2{
+.contactUs form h2 {
   text-align: center;
   margin-top: 5%;
 }
 
-.contactUs textarea{
+.contactUs textarea {
   border-radius: 10px;
   margin-left: 5%;
 }
 
-.contactUs form div:nth-of-type(1) label{
+.contactUs form div:nth-of-type(1) label {
   margin-right: 1.2%;
 }
 
-.inputnameEmail{
+.inputnameEmail {
   background: rgb(168, 166, 166);
   border: none;
   border-radius: 5px;
   padding: 5px;
-  color: white
+  color: white;
 }
 
-.contactUs div:nth-child(7) input{
+.contactUs div:nth-child(7) input {
   margin: 0 5%;
   border-radius: 5px;
   border: transparent;
