@@ -84,4 +84,28 @@ h1 {
 */
 footer {
   background-color: #7eab60;
+  height: 12vh;
 }
+footer ul {
+  padding-top: 3%;
+}
+footer ul li {
+  list-style: none;
+  display: inline;
+  padding: 1.8em;
+  margin-left: 15%;
+}
+footer a {
+  font-family: "Hiromisake";
+  font-size: 1.2em;
+  color: black;
+}
+footer p {
+  font-family: "Hiromisake";
+  font-size: 0.7em;
+  color: #ebdcbb;
+  text-align: center; 
+  padding: 1em;
+  margin-top: 01.9%;
+}
+  
