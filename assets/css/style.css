@@ -43,19 +43,30 @@ header {
   font-family: "PoetsenOne";
   background-color: #85b566;
   text-align: right;
-  position: relative;
+  /* position: relative; */
+  height: 10vh;
+  position: fixed;
+  top: 0;
+  width: 75%;
 }
 
+header nav a{
+  color: white;
+  font-size: 1.5rem;
+}
+header nav a:hover{
+  text-decoration: underline;
+}
 header nav ul li {
   display: inline-block;
   padding: 2% 5% 2% 1%;
 }
 
 header nav img {
-  width: 7%;
+  width: 20%;
   position: absolute;
-  left: 30px;
-  top: -30px;
+  left: 5px;
+  top: -100px;
 }
 
 /*
@@ -67,7 +78,8 @@ header nav img {
 .welcome {
   background: url(../img/title-bg.jpeg) no-repeat center/cover;
   width: 1440px;
-  height: 90vh;
+  height: 90vh; /*höhe verändert*/
+  padding-top: 100px;
 }
 
 h1 {
@@ -77,6 +89,69 @@ h1 {
   padding: 3% 25%;
 }
 
+
+/*-----------------Contact Us---------------*/
+
+.contactUs{
+  background: url(../img/contact-bg.png);
+  height: 100vh;
+}
+
+.contactUs form{
+  display: inline-block;
+  background-color: rgb(209, 208, 208, 0.5);
+  width: 30%;
+  height: 60%;
+  margin-left: 50%;
+  margin-top: 15%;
+  border-radius: 1rem;
+  font-family: "PoetsenOne";
+}
+
+.contactUs label{
+  color: white;
+}
+.contactUs form div{
+  margin-left: 10%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.contactUs form h2{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.contactUs textarea{
+  border-radius: 10px;
+  margin-left: 5%;
+}
+
+.contactUs form div:nth-of-type(1) label{
+  margin-right: 1.2%;
+}
+
+.inputnameEmail{
+  background: rgb(168, 166, 166);
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: white
+}
+
+.contactUs div:nth-child(7) input{
+  margin: 0 5%;
+  border-radius: 5px;
+  border: transparent;
+  background: transparent;
+  color: white;
+  font-family: "PoetsenOne";
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+.co
 /*
 ########################################
                   Footer
